@@ -1,0 +1,26 @@
+form, #result-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	height: 160px;
+	width: 180px;
+	padding: 10px;
+	border: 1px solid;
+	margin-top: 10px;
+}
+#clean-button {
+	align-self: flex-end;
+	border: 0 solid;
+	border-radius: 3px;
+	width: 60px;
+	height: 30px;
+	color: #fff;
+	background-color: #94b7ef;
+}
+label {
+	font-weight: bold;
+}
+.input-value {
+	display: block;
+}
